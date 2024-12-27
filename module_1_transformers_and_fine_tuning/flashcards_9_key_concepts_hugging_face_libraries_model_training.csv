@@ -1,0 +1,4 @@
+"Which of the following is the most popular feature of Hugging Face?","Transformers library"
+"Which fine-tuning approach is applied for learning to predict missing words in a large, unlabeled dataset?","Self-supervised fine-tuning"
+"Select the correct statement regarding the given code snippet.","This code snippet indicates the constructor that initializes the text classifier with configurations such as the number of classes, vocabulary size, and transformer settings."
+"Which statement is correct regarding an SFT Trainer?","It simplifies and automates training tasks"

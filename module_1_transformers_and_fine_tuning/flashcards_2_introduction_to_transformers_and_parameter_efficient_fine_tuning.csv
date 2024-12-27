@@ -1,0 +1,16 @@
+```csv
+"What are the two main frameworks discussed in the course for working with transformers?", "PyTorch and Hugging Face"
+"What is PEFT an acronym for?", "Parameter-Efficient Fine-Tuning"
+"What techniques are covered in the course for enhancing model performance?", "Low-Rank Adaptation (LoRA) and Quantized Low-Rank Adaptation (QLoRA)"
+"What are the prerequisites for this course?", "Basic understanding of Python programming, PyTorch framework, and neural networks"
+"What is the focus of the Generative AI for Data Scientists Specialization?", "Enhancing expertise in generative AI"
+"Name one of the courses in the Generative AI Engineering Specialization.", "Generative AI and LLMs: Architecture and Data Preparation"
+"What platforms are used for hands-on practice in the course?", "Hugging Face and PyTorch"
+"By the end of the course, what will students be able to demonstrate regarding models?", "Loading models, making inferences, and fine-tuning models using PyTorch and Hugging Face"
+"What is the main goal of Module 1 in the course?", "Understanding transformers and fine-tuning"
+"What are LoRA and QLoRA categorized as?", "PEFT adaptors"
+"What type of environment is required for completing labs in this course?", "Cloud-based environment"
+"What is the purpose of LoRA in model training?", "Reduction of trainable parameters using pretrained models"
+"What is a recommended platform for accessing course materials?", "Hugging Face or watsonx.ai"
+"What is covered in Module 2 of the course?", "Parameter Efficient Fine-Tuning (PEFT) and adaptors like LoRA and QLoRA"
+```
