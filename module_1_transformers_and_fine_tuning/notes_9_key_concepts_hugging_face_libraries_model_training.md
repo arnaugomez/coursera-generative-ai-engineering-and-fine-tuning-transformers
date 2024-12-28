@@ -2,9 +2,7 @@
 
 ## Overview
 
-This lesson covers several key concepts related to Hugging Face libraries, model fine-tuning approaches, and code snippets for training transformer models, as well as the functionalities of an SFT Trainer. 
-
----
+This lesson covers several key concepts related to Hugging Face libraries, model fine-tuning approaches, and code snippets for training transformer models, as well as the functionalities of an SFT Trainer.
 
 ## Popular Hugging Face Features
 
@@ -13,11 +11,10 @@ This lesson covers several key concepts related to Hugging Face libraries, model
 - **Transformers library**: The Transformers library is one of the most popular features of Hugging Face, known for its vast collection of pre-trained models for natural language processing tasks.
 
 Other mentioned features:
+
 - Tokenizers library
 - Datasets library
 - Building neural networks
-
----
 
 ## Fine-Tuning Approaches
 
@@ -26,11 +23,10 @@ Other mentioned features:
 - **Self-supervised fine-tuning**: This approach allows models to learn from the context within the data itself, such as predicting missing or masked words without requiring labeled data.
 
 Other approaches listed:
+
 - Reinforcement learning from human feedback (RLHF)
 - Supervised fine-tuning
 - Direct preference optimization (DPO)
-
----
 
 ## Code Snippet Analysis
 
@@ -47,10 +43,10 @@ class Net(nn.Module):
         self.emb = nn.Embedding.from_pretrained(glove_embedding.vectors, freeze=freeze)
         embedding_dim = self.emb.embedding_dim
 
-        self.pos_encoder = PositionalEncoding(d_model=embedding_dim, dropout=dropout, 
+        self.pos_encoder = PositionalEncoding(d_model=embedding_dim, dropout=dropout,
                                               vocab_size=vocab_size)
 
-        encoder_layer = nn.TransformerEncoderLayer(d_model=embedding_dim, nhead=nhead, 
+        encoder_layer = nn.TransformerEncoderLayer(d_model=embedding_dim, nhead=nhead,
                                                    dim_feedforward=dim_feedforward, dropout=dropout)
 
         self.transformer_encoder = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
@@ -61,11 +57,10 @@ class Net(nn.Module):
 - **Correct Statement**: This code snippet indicates the constructor that initializes the text classifier with configurations such as the number of classes, vocabulary size, and transformer settings.
 
 Other options:
+
 - Training a transformer model with an optimizer and loss criterion
 - Converting dataset into map-style datasets and performing a random split
 - Preprocessing text for machine learning
-
----
 
 ## SFT Trainer Functionality
 
@@ -74,10 +69,9 @@ Other options:
 - **It simplifies and automates training tasks**: The SFT Trainer streamlines the process of training models, making it easier to handle various tasks without delving deeply into complex configurations.
 
 Other functionalities listed:
+
 - Evaluating the model’s performance
 - Extracting text from the dataset
 - Determining the number of neurons in the final layer
-
----
 
 These notes summarize the essential concepts discussed in the lesson, highlighting popular features, fine-tuning approaches, code snippet functionalities, and trainer capabilities.

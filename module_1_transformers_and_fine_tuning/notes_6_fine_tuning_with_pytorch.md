@@ -7,12 +7,14 @@
 ## Objectives
 
 After this lesson, you will be able to:
+
 - Prepare the dataset for loading and model definition.
 - Fine-tune the complete model and its final layer.
 
 ## Datasets
 
 1. **IMDB Dataset**
+
    - Contains 50,000 samples of movie reviews.
    - It is a binary classification dataset with two classes: **positive** and **negative**.
 
@@ -30,10 +32,12 @@ After this lesson, you will be able to:
 ### Preparing the Data
 
 1. **Loading the IMDB Dataset**
+
    - Define a class to load the IMDB dataset.
    - Load the dataset into test and train iterators.
 
 2. **Tokenizer and Embeddings**
+
    - Define a tokenizer and load GloVe embeddings.
    - Build a vocabulary object from the pre-trained GloVe word embedding model, assigning index values and setting the default index to the token.
 
@@ -53,11 +57,13 @@ After this lesson, you will be able to:
 ### Training and Evaluation
 
 1. **Training the Model**
+
    - Use the provided optimizer and loss criteria.
    - Iterate through the specified number of epochs.
    - Evaluate model performance on a validation dataset, print the loss per epoch, and optionally save the model and performance metrics if the validation accuracy improves.
 
 2. **Prediction**
+
    - The predict function processes text for machine learning and uses a pre-trained model to predict text labels for classification.
 
 3. **Fine-tuning the Model**

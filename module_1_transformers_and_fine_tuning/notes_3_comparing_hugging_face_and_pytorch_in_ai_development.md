@@ -23,12 +23,12 @@ This lesson focuses on a comparison between two prominent frameworks in AI devel
 
 ## PyTorch
 
-### Overview
+### Pytorch Overview
 
 - PyTorch is an open-source deep learning framework originally developed by Facebook AI Research (now Meta) for building neural networks.
 - Known for its flexibility and ease of use, PyTorch is a leading ML framework for academic and research communities.
 
-### Key Features
+### Pytorch Key Features
 
 - **Dynamic Computation Graph**: Allows changes to the network architecture on the fly during runtime, facilitating rapid prototyping and debugging.
 - **Python-based Syntax**: Intuitive and straightforward, making it easy to use.
@@ -37,13 +37,13 @@ This lesson focuses on a comparison between two prominent frameworks in AI devel
 
 ## Comparing Hugging Face and PyTorch
 
-| Feature                | Hugging Face                                    | PyTorch                                         |
-|------------------------|--------------------------------------------------|-------------------------------------------------|
-| **Primary Use**        | Pre-trained NLP models and tools                 | Building custom NLP models from scratch         |
-| **Community Role**     | Collaborative hub, similar to GitHub for ML      | Widely used in academic research and development|
-| **Flexibility**        | Enhances frameworks like PyTorch and TensorFlow  | Dynamic computation graph for flexible modeling |
-| **Ease of Use**        | Ready-to-use models and user-friendly interface  | Python-based, intuitive syntax                  |
-| **Applications**       | NLP tasks like text classification, sentiment analysis | Deep learning, prototyping, extensive ML models |
+| Feature            | Hugging Face                                           | PyTorch                                          |
+| ------------------ | ------------------------------------------------------ | ------------------------------------------------ |
+| **Primary Use**    | Pre-trained NLP models and tools                       | Building custom NLP models from scratch          |
+| **Community Role** | Collaborative hub, similar to GitHub for ML            | Widely used in academic research and development |
+| **Flexibility**    | Enhances frameworks like PyTorch and TensorFlow        | Dynamic computation graph for flexible modeling  |
+| **Ease of Use**    | Ready-to-use models and user-friendly interface        | Python-based, intuitive syntax                   |
+| **Applications**   | NLP tasks like text classification, sentiment analysis | Deep learning, prototyping, extensive ML models  |
 
 ## Applications and Integration
 

@@ -4,7 +4,7 @@
 
 Welcome to this comprehensive course on **transformers and model frameworks** such as **PyTorch** and **Hugging Face**. This course is designed to equip you with the skills to optimize **large language models (LLMs)** and fine-tune **generative AI models**.
 
-### Key Topics Covered:
+### Key Topics Covered
 
 - **Transformers and Model Frameworks**: Explore the fundamental concepts and practical applications.
 - **Parameter-Efficient Fine-Tuning (PEFT)**: Learn methods to efficiently fine-tune models without extensive computational resources.

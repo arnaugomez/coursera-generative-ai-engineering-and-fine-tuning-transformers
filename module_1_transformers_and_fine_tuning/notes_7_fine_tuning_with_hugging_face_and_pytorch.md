@@ -17,10 +17,12 @@ Welcome to the lesson on **Fine-tuning with Hugging Face**. By the end of this s
 ## Example: Loading the Yelp Review Dataset
 
 1. **Dataset Structure**:
+
    - The Yelp review dataset is structured as a list-like object containing user reviews and metadata.
    - Each review is a dictionary with keys such as `text` (review content) and `label` (star rating from 1 to 5).
 
 2. **Tokenization**:
+
    - Use a **BERT tokenizer** to tokenize, pad, and truncate reviews, handling variable-length sequences efficiently.
    - The tokenizer function extracts the text from the dataset and applies the tokenizer.
    - The result is that each review text is converted to token indices, stored under the key `input_ids`.
@@ -34,10 +36,12 @@ Welcome to the lesson on **Fine-tuning with Hugging Face**. By the end of this s
 ## Fine-tuning a Pre-trained BERT Model
 
 1. **Loading the Model**:
+
    - Load a pre-trained BERT classification model with five classes designed for sequence classification.
    - The `num_labels` parameter specifies the number of classes, determining the neurons in the final layer.
 
 2. **Training Setup**:
+
    - Create an optimizer and learning rate scheduler using the **AdamW optimizer** from PyTorch.
    - Define a training function and an evaluation function to assess model performance post-fine-tuning.
    - Train the model, observing loss reduction after each epoch.
@@ -49,14 +53,17 @@ Welcome to the lesson on **Fine-tuning with Hugging Face**. By the end of this s
 ## Masked Language Model Task
 
 1. **Objective**:
+
    - Predict a masked word using a transformer model.
 
 2. **Process**:
+
    - Load a masked language model and fine-tune it using the SFT trainer.
    - Use datasets like the **IMDB dataset** for fine-tuning.
    - Define training arguments, including parameters such as learning rate and number of epochs.
 
 3. **SFT Trainer Configuration**:
+
    - Define the SFT trainer object with parameters: model, training arguments, dataset, and specific field key for training.
    - Train the model and observe the loss for every epoch.
 

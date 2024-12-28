@@ -7,12 +7,12 @@ This lesson focuses on **fine-tuning** a pre-trained model using PyTorch, a key 
 ## Key Concepts
 
 - **Fine Tuning**: The process of adapting a pre-trained model to perform specific tasks or adjust it to a new dataset.
-  
 - **PyTorch**: A popular open-source machine learning library used for applications such as computer vision and natural language processing.
 
 ## Datasets
 
-1. **IMDB Dataset**: 
+1. **IMDB Dataset**:
+
    - Contains 50,000 samples of movie reviews.
    - Binary classification: Positive and Negative reviews.
 
@@ -42,17 +42,19 @@ This lesson focuses on **fine-tuning** a pre-trained model using PyTorch, a key 
 
 ### Training and Evaluation
 
-- **Train Model Function**: 
+- **Train Model Function**:
+
   - Trains a transformer model with the provided optimizer and loss criteria.
   - Evaluates model performance on validation data and saves the model if validation accuracy improves.
 
-- **Predict Function**: 
+- **Predict Function**:
   - Takes text input and a text pipeline to preprocess text for machine learning.
   - Uses a pre-trained model to predict text labels for classification.
 
 ### Fine-Tuning the Model
 
 - **Complete Model Fine-Tuning**:
+
   - Create a model object with PyTorch.
   - Load parameters from a pre-trained model on the AG News dataset.
   - Adjust the number of neurons in the final layer according to the dataset being fine-tuned.
